@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<ShortName>素人系総合wiki</ShortName> 
+<Description>素人系総合wiki ページ名検索</Description>
+<InputEncoding>euc-jp</InputEncoding>
+<Image width="16" height="16" type="image/vnd.microsoft.icon">http://sougouwiki.com/favicon.ico</Image>
+<Url type="text/html" method="GET" template="http://sougouwiki.com/search">
+  <Param name="keywords" value="{searchTerms}"/>
+  <Param name="search_type" value="2"/>
+  <Param name="search_target" value="page_name"/>
+</Url>
+<moz:SearchForm>http://sougouwiki.com/search</moz:SearchForm>
+</OpenSearchDescription>
