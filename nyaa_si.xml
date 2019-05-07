@@ -4,8 +4,6 @@
 <Description>Nyaa_si</Description>
 <InputEncoding>UTF-8</InputEncoding>
 <Image>http://nyaa.si/static/favicon.png</Image>
-
-<Url type="application/x-suggestions+json" template="suggestionURL"/>
 <Url type="text/html" method="GET" template="searchURL">
 <Param name="q" value="{searchTerms}"/>
 <Param name="c" value="0_0"/>
