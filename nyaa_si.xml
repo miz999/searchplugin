@@ -9,4 +9,5 @@
 <Param name="c" value="0_0"/>
 <Param name="f" value="0"/>
 </Url>
+<moz:SearchForm>https://nyaa.si</moz:SearchForm>
 </OpenSearchDescription>
