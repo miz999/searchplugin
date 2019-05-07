@@ -6,7 +6,6 @@
 <Image>http://nyaa.si/static/favicon.png</Image>
 
 <Url type="application/x-suggestions+json" template="suggestionURL"/>
-<moz:SearchForm>searchFormURL</moz:SearchForm>
 <Url type="text/html" method="GET" template="searchURL">
 <Param name="q" value="{searchTerms}"/>
 <Param name="c" value="0_0"/>
