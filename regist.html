@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <title>Add firefox search engine</title>
+    <script>
+        function installSearchEngine() {
+            if (window.external && ("AddSearchProvider" in window.external)) {
+                // Firefox 2 と IE 7 では OpenSearch を使う
+                window.external.AddSearchProvider("nyaa_si.xml");
+            } else if (window.sidebar && ("addSearchEngine" in window.sidebar)) {
+                // Firefox 1.5 以下では Sherlock を使う
+                window.sidebar.addSearchEngine("./nyaa_si.xml",
+                    "http://example.com/search-icon.png",
+                    "Search Plugin", "");
+            } else {
+                // 検索エンジンはサポートされていない (IE 6, Opera など)
+                alert("No search engine support");
+            }
+        }
+    </script>
+</head>
+<a href="/jsreq.html" title="Ref: ut_search (45667)" onClick="installSearchEngine();return false">nyaa.si search</a>
+
+</html>
