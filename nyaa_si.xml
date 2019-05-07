@@ -4,7 +4,7 @@
 <Description>Nyaa_si</Description>
 <InputEncoding>UTF-8</InputEncoding>
 <Image>http://nyaa.si/static/favicon.png</Image>
-<Url type="text/html" method="GET" template="https://nyaa.si/">
+<Url type="text/html" method="GET" template="searchURL">
  <Param name="q" value="{searchTerms}"/>
  <Param name="c" value="0_0"/>
  <Param name="f" value="0"/>
