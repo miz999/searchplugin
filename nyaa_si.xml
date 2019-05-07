@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
                        xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-<ShortName>Nyaa_si</ShortName> 
-<Description>Nyaa_si</Description>
-<InputEncoding>UTF-8</InputEncoding>
-<Image>http://nyaa.si/static/favicon.png</Image>
-<Url type="text/html" method="GET" template="searchURL">
-<Param name="q" value="{searchTerms}"/>
-<Param name="c" value="0_0"/>
-<Param name="f" value="0"/>
-</Url>
-<moz:SearchForm>https://nyaa.si</moz:SearchForm>
+  <!-- Created on Thu, 20 Apr 2017 16:32:44 GMT -->
+  <ShortName>Wikipedia (Deutsch) - StartPage</ShortName>
+  <Description>Searches German and English Wikipedia via Startpage</Description>
+  <Url type="text/html" method="get" template="https://www.startpage.com/do/search?q=site%3Ade.wikipedia.org+OR+site%3Aen.wikipedia.org+{searchTerms}"/>
+  <Image width="16" height="16">https://mycroftproject.com/updateos.php/id0/sp_wiki_deen.png</Image>
+  <Developer>emmnett</Developer>
+  <InputEncoding>UTF-8</InputEncoding>
+  <moz:SearchForm>http://de.wikipedia.org</moz:SearchForm>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://mycroftproject.com/updateos.php/id0/sp_wiki_deen.xml"/>
 </OpenSearchDescription>
