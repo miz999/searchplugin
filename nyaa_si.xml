@@ -11,5 +11,4 @@
     <Image width="16" height="16">http://nyaa.si/static/favicon.png</Image>
     <InputEncoding>UTF-8</InputEncoding>
     <moz:SearchForm>https://nyaa.si</moz:SearchForm>
-    <Url type="application/opensearchdescription+xml" rel="self" template="https://github.com/miz999/searchplugin/blob/master/nyaa_si.xml"/>    
 </OpenSearchDescription>
