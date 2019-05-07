@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<ShortName>Nyaa_si</ShortName> 
+<Description>Nyaa_si</Description>
+<InputEncoding>UTF-8</InputEncoding>
+<Image>http://nyaa.si/static/favicon.png</Image>
+<Url type="text/html" method="GET" template="https://nyaa.si/">
+ <Param name="q" value="{searchTerms}"/>
+ <Param name="c" value="0_0"/>
+ <Param name="f" value="0"/>
+<Url>
+<moz:SearchForm>https://nyaa.si</moz:SearchForm>
+</OpenSearchDescription>
