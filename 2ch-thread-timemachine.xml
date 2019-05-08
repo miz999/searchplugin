@@ -1,0 +1,10 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>2ch-thread-timemachine</os:ShortName>
+<os:Description>2ch-thread-timemachine</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABMLAAATCwAAAAAAAAAAAAAAAAAAaHr/AIui/wYdIf9+BQb/5wYG/7gREf84Ghr/GBMT/y8ODv9QCgr/dwgI/6EGBv/JBQX/4wkI/7EhGP8nu9z/ABUZ/wArN/9NCAr/8QAA//8AAP//AwP/5AQE/9QCAv/nAQH/9gEB//4AAP//AAD//wAA//8BAf/+FQr/iGZs/wAAAP8ACw7/kgAB//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wEB//4CAv/3AgL/+hUJ/6Fhaf8AAAD/AAcH/3wAAP//AAD//wAA//8FBf/iCwv/pQcH/68HB/+4Bgb/owgI/4UKCv9kDg7/Qg0N/04TEf9/AAAAAAgI/wALC/8TBwf/iAID/+cAAP//AQH/+gQE/9YKCv+YGBX/WCQh/yFNS/8DOzj/AE1O/wCAYv8AKCj/CwAAAAAAAAAAICb/AC41/wMQEf8wBwf/lAIC/+kAAP//AAD//wIC//kFBP/eBwf/pwsL/1sYGP8QCgr/AIeH/wAAAAAAAAAAAAAAAAA9Rv8ARU//BCMl/x0UFf9JCAn/nAID/+wAAP//AAD//wAA//8BAf/6Bgb/rxcU/x8KC/8AAAAAAAAAAAAWIf8AHiv/EAsP/40EBf/dBAT/zA0M/3YVF/9GBgn/sAEB//kAAP//AAD//wAA//8TCv+V6n//AwAAAABWgv8AAAD/AA8X/3cBAv/9AAD//wAA//8DAv/uDw3/MyYw/wkKDf9+AQL/+QAA//8AAP//EAn/0Vs3/xgAAAAAVX//AFaC/wwNFf/EAAD//wAA//8GBP/kBgX/nw0O/xoUG/8AJTz/EAYM/8MAAP//AAD//xIK/91hOv8hAAAAAFaB/wBWg/8ODhb/yAAA//8BAP//Egz/mYhx/wQ3L/8ALjv/ADZJ/wcHC/+2AAD//wAA//8VC//KbUH/EwAAAABTh/8A////AQ8e/48BAv//AAD//wMD/+oTD/9tJSH/Hxwd/xgLDP9pAgL/8QAA//8EAv//KRb/hAAA/wAAAAAA////ABko/wAlPf8iDBP/uQID//wAAP//AgH/+wUF/+IEBP/bAQH/9wAA//8EA//8GRD/sFY3/xxGLf8AAAAAAAAAAACny/8ABAj/AC9F/xUSGP9iCAr/sQQE/9cCAv/nAwP/6wcF/+IQDf/AJxz/bkw0/xEoG/8A8+D/AAAAAAAAAAAAAAAAAAAAAACerv8AAAD/ADQ7/wYbHv8XExP/IxkY/ygoIv8gT0X/C////wChlf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAMAAAADAAAAAwAAAAMAOAADgAwAA8AEAAOAAAADgAAAAwEAAAMDAAADAAQAA4AEAAPADAAD8BwAA//8AAA==</os:Image>
+<SearchForm>http://2ch-thread-timemachine.appspot.com/search</SearchForm>
+<os:Url type="text/html" method="GET" template="http://2ch-thread-timemachine.appspot.com/search" resultDomain="http">
+  <os:Param name="searchQuery" value="{searchTerms}"/>
+</os:Url>
+</SearchPlugin>
